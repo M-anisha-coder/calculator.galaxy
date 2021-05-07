@@ -1,0 +1,93 @@
+/* wallpaperhouse.com*/
+body{
+    font-family: 'Merriweather', serif;
+    
+   
+  background-image: url("https://wallpaper-house.com/data/out/8/wallpaper2you_226439.png");
+}
+#container{
+    width: 800px;
+    height: 660px;
+  /*  background-image: url("https://wallpaper-house.com/data/out/8/wallpaper2you_226439.png");*/
+  background-image:linear-gradient( #e48fff,#54e9dc,rgb(247, 114, 203));
+     margin-top: 2%;
+     margin-left: 25%;
+     border-radius: 200px;
+}
+#calci{
+    background-color:white;
+   
+    width: 320px;
+    height: 530px;
+    margin-left: 30%;
+    margin-top: 3%;
+    border-radius: 15px;
+    position: relative;
+    top: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#result{
+    height: 120px;
+}
+#keyboard{
+    height: 400px;
+}
+#history{
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: rgb(143, 140, 140);
+}
+#output{
+    text-align: right;
+    height: 60px;
+    font-size: 30px;
+    padding-right: 20px;
+    
+}
+.operator,.number,.empty{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0px;
+    font-size: 15px;
+    font-weight: bold;
+    
+    
+}
+.number,.empty{
+    background-color: white;
+
+}
+.number,.operator{
+    cursor: pointer;
+}
+.operator:active,.number:active{
+    font-size: 10px;
+}
+button:nth-child(4){
+    font-size: 25px;
+    background-color: #72ebe5;
+}
+button:nth-child(8){
+    font-size: 25px;
+    background-color: #faa763;
+}
+button:nth-child(12){
+    font-size: 25px;
+    background-color: #f08080;
+}
+button:nth-child(16){
+    font-size: 25px;
+    background-color:#7d93e0;
+}
+button:nth-child(20){
+    font-size: 25px;
+    background-color: #9477af;
+}
+
+
